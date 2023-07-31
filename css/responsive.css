@@ -1,0 +1,393 @@
+@media (max-width:1270px) {
+    #cards{
+        width: 950px;
+    }
+    .wrap{
+        width: 1000px;
+        margin: auto;
+    }
+   
+    .card{
+        width: 15%;
+        height: 320px;
+    }
+    .card{
+        margin: 30px 2.5%;
+    }
+    .card .description{
+        margin: 10px;
+    }
+    #articulos{
+        width: 65%;
+    }
+    #footer h5{
+        font-size: 30px;
+        width: 100%;
+    }
+    #footer > nav{
+        margin-left: 8%;
+    }
+    #footer > div{
+        margin-left: 30px;
+    }
+    #footer #browsers img{
+        width: 30px;
+    }
+    #html img{
+        width: 90%;
+    }
+}
+@media (max-width:1120px) {
+
+    .wrap{
+        width: 900px;
+        margin: auto;
+    }
+
+    #banner h1{
+        width: 80%;
+        font-size: 35px;
+    }
+    #menu{
+        margin: 0 100px;
+    }
+    #articulos{
+        width: 70%;
+    }
+    .card{
+        margin: 30px 2%;
+    }
+    #aside{
+        width: 240px;
+    }
+    #login input[type="submit"]{
+        margin-left: 30%;
+    }
+    #login input[type="reset"]{
+        display: none;
+    }
+    #blog a{
+        font-size: 30px;
+    }
+}
+@media (max-width:1000px) {
+  
+    .wrap{
+        width: 700px;
+        margin: auto;
+    }
+    #banner h1{
+        margin: 38px auto;
+        font-size: 28px;
+    }
+    #cards{
+        width: 650px;
+    }
+    #cards .card{
+        width: 190px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    #cards .card:nth-child(1){
+        margin-left: 30px;
+    }
+    #cards .card:nth-child(4){
+        margin-left: 20%;
+    }
+    .card .description{
+        padding: 10px 15px;
+    }
+    #menu{
+        margin: 0 30px;
+    }
+    #aside{
+        width: 200px;
+    }
+    #social{
+        width: 75%;
+    }
+    #social a{
+        font-size: 20px
+    }
+    #social .overlay{
+        left: 45px;
+    }
+    #menu-footer ul li{
+        width: 200px;
+    }
+    #footer h5{
+        font-size: 25px;
+    }
+}
+@media (max-width:860px) {
+    #header{
+        height: 140px;
+    }
+    #logo{
+        float: none;
+        clear: both;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: 20px;
+    }
+    #menu{
+        position: relative;
+        float: none;
+        clear: both;
+        display: block;
+        left: 18%;
+        top:25px;
+    }
+    #banner h1{
+        margin: 40px auto;
+        font-size: 25px;
+    }
+    #aside{
+        float: none;
+        width: 100%; height: 1150px;
+        margin: auto;
+    }
+    #aside h3{
+        width: 100%;
+        text-align: center;
+    }
+    #aside .box{
+        width: 40%;
+        min-width: 250px;
+        margin-top: 25px;
+    }
+    #aside .encabezado:nth-child(1){
+        margin-top: 25px;
+    }
+    #articulos{
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+    #aside > div#social{
+        width: 40%;
+        min-width: 150px;
+    }
+    #social a{
+        font-size: 25px
+    }
+    #social .overlay{
+        left: 70px;
+    }
+    #footer{
+        height: 1250px;
+    }
+    #footer > div, #footer > nav{
+        width: 60%;
+        height: auto;
+        display: block;
+        margin-left: 20%;
+        margin-top: 60px;
+    }
+    #footer #browsers img{
+        width: 60px;
+    }
+    #html img{
+        width: 80%;
+        min-width: 200px;
+    }
+
+}
+@media (max-width:750px) {
+    .wrap{
+        width: 500px;
+    }
+    #menu{
+        left: 6%;
+    }
+    #banner h1{
+        margin: 20px auto;
+        font-size: 25px;
+    }
+
+    #cards{
+        width: 100%;
+    }
+    #cards > div.card{
+        margin: 20px;
+    }
+    #cards > div.card:nth-child(1),
+    #cards > div.card:nth-child(3){
+        margin-left: 8%;
+    }
+    #cards > div.card:nth-child(4){
+        margin: 20px;
+    }
+    #cards > div.card:nth-child(5){
+        margin-left: 32%;
+    }
+  
+    
+}
+
+@media (max-width:650px) {
+    #banner h1{
+        margin: 20px auto;
+        font-size: 25px;
+    }
+    #footer #browsers img{
+        width: 40px;
+    }
+    #articulos article .data{
+        width: 50%;
+    }
+    #articulos article h4{
+        width: 40%;
+        text-align: center;
+    }
+    #articulos article p{
+        margin-top: 20px;
+    }
+}
+@media (max-width:550px) {
+    .wrap{
+        width: 90%;
+    }
+    #header{
+        height: 350px;
+        min-width: 270px;
+    }
+    #menu{
+        left: 3%;
+        top: 15px;
+ 
+    }
+    #menu ul li{
+        float: none;
+    }
+    #banner h1{
+        margin: 20px auto;
+        font-size: 25px;
+    }
+
+    #cards > div.card{
+        width: 250px;
+        margin: 15px auto;
+        display: block;
+        clear: both;
+        float: none;
+
+    }
+    #cards > div.card:nth-child(1),
+    #cards > div.card:nth-child(3){
+        margin: 15px auto;
+        
+    }
+    #cards > div.card:nth-child(4){
+        margin: 15px auto;
+       
+    }
+    #cards > div.card:nth-child(5){
+        margin: 15px auto;
+    }
+    #articulos article{
+        height: auto;
+    }
+    #articulos #blog{
+        height: 80px;
+        line-height: 80px;
+    }
+    #articulos article .data{
+        top: 50px;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 0;
+    }
+    #articulos article h4{
+        width: 100%;
+    }
+    #articulos article p{
+        margin-top: 60px;
+    }
+    #footer #browsers img{
+        width: 30px;
+    }
+}
+@media (max-width:350px) {
+    .wrap{
+        width: 95%;
+        height: auto;
+        display: block;
+        min-width: 270px;
+        float: none;
+        clear: both;
+    }
+    #menu{
+        left: 6.5%;
+    }
+    #footer{
+        display: block;
+        float: none;
+        clear: both;
+        box-sizing: border-box;
+        padding-top: 60px;
+    }
+   
+    #footer, #articulos{
+        min-width: 270px;
+    }
+    #banner{
+        float: none;
+        clear: both;
+        margin: auto;
+        border: 5px solid white;
+        width: 250px;
+    }
+    #banner h1{
+        width: 200px;
+        margin: 26px auto;
+        font-size: 20px;
+    }
+    #aside{
+        height: 1100px;
+    }
+    #aside > div{
+        margin-top: 20px;
+    }
+    #articulos h3, #aside h3{
+        display: block;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    #articulos article{
+        width: 90%;
+    }
+    #cards > div.card{
+        width: 85%;
+        height: auto;
+    }
+    #cards > div.card .description{
+        display: none;
+    }
+
+    #articulos article{
+        min-width: 240px;
+    }
+    #articulos #blog{
+        height: 50px;
+        width: 90%;
+    }
+    #articulos #blog a{
+        line-height: 50px;
+    }
+  
+    #footer > div, #footer > nav{
+        width: 90% !important;
+        min-width: 250px;
+        clear: both;
+        float: none;
+        margin: auto;
+        display: block;
+    }
+    #footer > div{
+        margin-top: 60px;
+    }
+}
